@@ -46,7 +46,7 @@ div{
 }
 
 #header ul li.first{									/*一定要这么详细吗*/
-	border: none;
+	border: 0;
 }
 
 #header ul li h2{
@@ -102,3 +102,8 @@ div{
 	
 }
 
+#header ul li{
+	width: 87px;
+	padding: 0 6px;
+	float: left;
+}
