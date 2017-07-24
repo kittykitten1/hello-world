@@ -1,0 +1,104 @@
+div{
+	display: block;
+}
+
+
+#page{
+	background: url(../images/bg-page.gif) no-repeat center 0;
+	height: auto;
+	width: auto;
+	margin: 0 auto;						/*能否继承属性*/
+}
+
+#header{
+	font-family: arial;
+	width: 960px;
+	margin: 0 auto;
+	position: relative;              /*有什么作用*/
+}
+
+#header a#logo{
+	background: none;
+	border: medium none;
+	height: 252px;
+	margin: 0;
+	width: 347px;
+	display: block;
+}
+
+#header a#logo img{
+	border: 0;
+	position: relative;											/*有什么作用*/
+	top: 0;
+	z-index: 1;
+	left: 1px;
+}
+
+#header ul{															/*与header宽度不一致*/
+	border-style: dashed none dashed none;
+	border: 1px #D5B88E;
+	list-style: none; 
+	overflow: hidden;
+	padding: 10px 0;
+	width: 300px;
+	margin: 5px 0 0 30px;
+	float: none !important;													/*有什么作用*/
+}
+
+#header ul li.first{									/*一定要这么详细吗*/
+	border: none;
+}
+
+#header ul li h2{
+	margin: 0;
+}
+
+#header ul li h2 a {
+	background: none;
+	color: #900017;
+	display: block;												/*有什么作用*/
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+	line-height: 20px;
+	text-align: left;
+	width: auto;				/*有什么作用*/
+	text-decoration: none;
+	text-shadow: 0 1px 1px #FFFFFF;
+}
+
+#header ul li span{
+	text-shadow: 0 1px 1px #FFFFFF;
+	color: #900017;
+	margin-top: 3px;
+	display: block;
+    font-size: 16px;
+}
+
+#header a{													/*与之前的有什么区别*/
+	    margin: 11px 0 35px 20px;
+	    padding: 0;
+	    border: 0;
+	    background: url(../images/interface.gif) no-repeat 0 -261px;
+	    width: 360px;										/*每个宽度都不同*/
+	   	height: 48px;
+	   	text-shadow: 0 1px 1px #553B22;
+	   	font-size: 18px;
+	   	font-family: arial;
+	   	color: #FFFFFF;
+	   	font-weight: bold;
+	   	cursor: pointer;
+	   	text-decoration: none;    
+	   	display: block;
+	   	line-height: 45px;
+	   	text-align: center;
+}
+
+#header ul#navigation{
+	border: 0 none;									/*有什么作用*/
+	float: none !important;							/*有什么作用*/
+	margin: 0;
+	padding: 0;
+	
+}
+
