@@ -14,7 +14,7 @@ div{
 	font-family: arial;
 	width: 960px;
 	margin: 0 auto;
-	position: relative;              /*有什么作用*/
+	position: relative;             
 }
 
 #header a#logo{
@@ -28,7 +28,7 @@ div{
 
 #header a#logo img{
 	border: 0;
-	position: relative;											/*有什么作用*/
+	position: relative;											
 	top: 0;
 	z-index: 1;
 	left: 1px;
@@ -56,13 +56,13 @@ div{
 #header ul li h2 a {
 	background: none;
 	color: #900017;
-	display: block;												/*有什么作用*/
+	display: block;												
 	font-size: 18px;
 	font-weight: bold;
 	margin: 0;
-	line-height: 20px;
+	line-height: 20px;				/*与height有什么区别*/
 	text-align: left;
-	width: auto;				/*有什么作用*/
+	width: auto;				
 	text-decoration: none;
 	text-shadow: 0 1px 1px #FFFFFF;
 }
@@ -91,7 +91,7 @@ div{
 	   	text-decoration: none;    
 	   	display: block;
 	   	line-height: 45px;
-	   	text-align: center;
+	   	text-align: center;								/*为什么没有居中*/
 }
 
 #header ul#navigation{
@@ -106,4 +106,123 @@ div{
 	width: 87px;
 	padding: 0 6px;
 	float: left;
+}
+
+h2{
+	display: block;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#header ul#navigation{
+	border: 0 none;
+	float: none !important;
+	margin: 0;
+	padding: 0;
+	right: 10px;
+	top: 18px;
+	position: absolute;
+	width: auto;						/*不用auto是多少*/
+}
+
+#header ul#navigation #link1.selected{					/*要写这么复杂吗*/
+	background: url(../images/navigation.gif) no-repeat;
+	position: relative;								/*有什么作用*/
+	z-index: 9;
+}
+
+#header ul#navigation li#link1 {
+    width: 77px;
+}
+
+#header ul#navigation li#link2 {
+	width:83px;
+}
+}
+#header ul#navigation li#link3 {
+	width:111px;
+}
+
+#header ul#navigation li#link4 {
+	width:74px;
+}
+
+#header ul#navigation li#link5 {
+	width:74px;
+}
+
+#header ul#navigation li#link6 {
+	width:82px;
+}
+
+#header ul#navigation li#link7 {
+	width:101px;
+}
+
+#header ul#navigation li {
+    border: 0;
+    width: auto;
+    padding: 0;
+    text-align: center;
+    line-height: 50px;
+    height: 55px;
+}
+
+#header ul li {
+    width: 87px;
+    padding: 0 6px;
+    border: 1px #D5B88E;
+    border-style: none none none dashed;
+    float: left;
+}
+
+#header ul#navigation li.selected a {
+    color: #4e311f;
+}
+
+#header ul#navigation li a {
+    background: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: normal;
+    height: auto;
+    margin: 0;
+    text-decoration: none;
+    text-shadow: none;
+    width: auto;
+    outline: none;
+}
+
+#header img {
+    left: 347px;
+    position: absolute;
+    top: 75px;
+}
+
+#header div {
+    background: url(../images/interface.gif) no-repeat 0 -193px;
+    width: 915px;
+    height: 66px;
+    margin: 0 auto;
+}
+
+#header div h1 {
+    color: #DFC185;
+    font-family: arial;
+    font-size: 30px;
+    line-height: 70px;						/*区别和作用*/
+    margin: 0;
+    padding-left: 15px;
+    float: left;
+    height: 66px;
+}
+
+#header div p {
+    color: #dadada;
+    float: left;
+    font-size: 18px;
+    line-height: 70px;
+    margin: 0 0 0 40px;
+    text-shadow: 0 1px 1px #5C0100;
+    height: 66px;
 }
